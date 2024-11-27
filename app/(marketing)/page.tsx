@@ -19,7 +19,7 @@ export default function IndexPage() {
             </h1>
             <p className="text-muted-foreground mb-4 sm:text-xl leading-normal max-w-[42rem]" >
                 このページはNext.js
-                AppRouterで作られたものです。
+                AppRouterで作られたものです。Next.js は React の機能を拡張したフレームワークです。
             </p>
         </div >
 
@@ -40,6 +40,25 @@ export default function IndexPage() {
             </Link>
         </div>
     </section>
+    <section id="features" className="container py-8 mx-auto md:py-12 lg:py-24
+    bg-slate-50">
+                <div className="text-center space-y-6 ">
+                    <h2 className="font-extrabold text-3xl sm:text-5xl md:text-6xl lg:text-5xl">
+                        サービスの特徴
+                    </h2>
+                    <p className="text-muted-foreground sm:text-lg sm:leading-7">
+                        サーバーサイドレンダリング（SSR）と静的サイト生成（SSG）という技術を使って、
+                        ウェブサイトの表示速度を高速化したり、検索エンジン対策（SEO）を強化したりできます。
+                        </p>
+                </div>
+                <div className="bg-background">
+                    <div >
+                        <div>
+                            <svg></svg>
+                        </div>
+                    </div>
+                </div>
+            </section>
     </>
     ); 
 }
