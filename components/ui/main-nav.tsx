@@ -7,7 +7,7 @@ export default function MainNav() {
             <Link 
                 href={"/"}
                 className=" hidden md:flex ">
-                <span className="font-bold hidden sm:inline-block">Portfolio</span>
+                <span className="font-bold hidden sm:inline-block">Empower</span>
             </Link>
             
             <nav className=" md:flex gap-6 hidden">
@@ -15,13 +15,13 @@ export default function MainNav() {
                     href={"/"}
                     className="text-lg sm:text-sm font-medium hover:text-foreground/50"
                 > 
-                プロフィール
+                Profile
                 </Link>
                 <Link 
                     href={"/"}
                     className="text-lg sm:text-sm font-medium hover:text-foreground/50"
                 > 
-                価格
+                Price
                 </Link>
             </nav>
         </div>

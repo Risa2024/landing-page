@@ -22,7 +22,7 @@ export default function MarketingLayout({
                 "px-4 "
                 )}
                 >
-                ログイン
+                Login
                 </Link>
                 </nav>
             </div>

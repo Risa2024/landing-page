@@ -12,14 +12,14 @@ export default function IndexPage() {
              href={siteConfig.links.x} 
              className="bg-muted px-4 py-1.5 rounded-2xl font-medium text-sm"
             >           
-             Xをフォローする
+             Follow me on X
             </Link>
             <h1 className="font-extrabold text-3xl sm:text-5xl md:text-6xl lg:text-7xl">
-                Portfolio
+            Empower
             </h1>
             <p className="text-muted-foreground mb-4 sm:text-xl leading-normal max-w-[42rem]" >
-                このページはNext.js
-                AppRouterで作られたものです。Next.js は React の機能を拡張したフレームワークです。
+            This page is built with the Next.js App Router. Next.js is a framework that extends
+             the capabilities of React.
             </p>
         </div >
 
@@ -28,7 +28,7 @@ export default function IndexPage() {
             href={"/login"} 
             className={cn(buttonVariants({ size: "lg" }))}
             >
-            はじめる
+            Get Started
             </Link>
             <Link 
             href={siteConfig.links.github} 
@@ -36,7 +36,7 @@ export default function IndexPage() {
             target="_blank"
             rel="noreferrer"
             >
-            Git
+            GitHub
             </Link>
         </div>
     </section>
@@ -44,11 +44,12 @@ export default function IndexPage() {
     className="container py-8 mx-auto md:py-12 lg:py-24 bg-slate-50 space-y-6">
                 <div className="text-center space-y-6 max-w-[58rem] mx-auto">
                     <h2 className="font-extrabold text-3xl sm:text-5xl md:text-6xl lg:text-5xl">
-                        サービスの特徴
+                    Web Front-End Services
                     </h2>
                     <p className="text-muted-foreground sm:text-lg sm:leading-7">
-                        サーバーサイドレンダリング（SSR）と静的サイト生成（SSG）という技術を使って、
-                        ウェブサイトの表示速度を高速化したり、検索エンジン対策（SEO）を強化したりできます。
+                    By utilizing technologies like Server-Side Rendering (SSR) and Static Site 
+                    Generation (SSG), we can enhance website performance and improve search engine
+                    optimization (SEO).
                         </p>
                 </div>
                     
