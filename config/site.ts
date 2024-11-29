@@ -1,7 +1,7 @@
 import { SiteConfig } from "@/types";
 
 export const siteConfig: SiteConfig = {
-    name: "Portfolio",
+    name: "Empower",
     description: "",
     url:"http://localhost:3001/",
     ogImage:"",
