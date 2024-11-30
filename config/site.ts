@@ -2,11 +2,11 @@ import { SiteConfig } from "@/types";
 
 export const siteConfig: SiteConfig = {
     name: "Empower",
-    description: "",
-    url:"http://localhost:3001/",
+    description: "https://x.com/rearn2024_code",
+    url:"http://localhost:3000/",
     ogImage:"",
     links: {
-        x:"https://x.com/sarutahiko510",
+        x:"",
         github:"https://github.com/Risa2024",
     },
 };

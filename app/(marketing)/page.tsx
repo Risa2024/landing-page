@@ -160,10 +160,10 @@ export default function IndexPage() {
                     </div>
                 </div>
             </section>
-            <section id= "contact" className="container py-8 md:py-12 la:py-24">
-                <div className="max-auto text-center max-w-[58rem] flex flex-col gap-4">
-                <h2 className="font-semibold">Contact Me</h2>
-                 <p className="text-muted-foreground sm:text-lg sm:leading-7">Feel free to contact me if you're interested.
+            <section id="contact" className="container mx-auto py-8 md:py-12 lg:py-24">
+                <div className="max-w-[58rem] mx-auto text-center flex flex-col gap-4">
+                <h2 className="font-extrabold text-3xl md:text-6xl">Contact Me</h2>
+                <p className="text-muted-foreground sm:text-lg sm:leading-7">Feel free to contact me if you're interested.
                  </p>
                  <Link href={siteConfig.links.x}className="underline underline-offset-4"
                  target="_blank"
