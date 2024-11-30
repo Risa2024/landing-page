@@ -23,6 +23,12 @@ export default function MainNav() {
                 > 
                 Price
                 </Link>
+                <Link 
+                    href={"/"}
+                    className="text-lg sm:text-sm font-medium hover:text-foreground/50"
+                > 
+                Docs
+                </Link>
             </nav>
         </div>
     )
