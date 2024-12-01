@@ -5,6 +5,7 @@ import { cn } from "@/lib/utils";
 import MainNav from "@/components/ui/main-nav";
 
 
+
 export default function MarketingLayout({
     children,
 }: {
@@ -40,3 +41,5 @@ export default function MarketingLayout({
     </div>
     );
 }
+
+
