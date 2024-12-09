@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Noto_Sans_JP } from "next/font/google";
 import "./globals.css";
 import { cn }from "@/lib/utils";
-import { ThemeProvider } from "@/components/ui/ThemeProvider";
+//import { ThemeProvider } from "@/components/ui/ThemeProvider";
 
 const fontNotoSansJP = Noto_Sans_JP ({ subsets:["latin"]});
 
@@ -24,14 +24,14 @@ export default function RootLayout({
           fontNotoSansJP.className
         )}
       >
-        <ThemeProvider
+       {/*<ThemeProvider
             attribute="class"
             defaultTheme="system"
             enableSystem
             disableTransitionOnChange
           >
             {children}
-          </ThemeProvider>
+          </ThemeProvider>*/}
 
 
         {children}

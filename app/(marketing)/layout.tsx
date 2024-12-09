@@ -3,7 +3,7 @@ import Link from "next/link";
 import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import MainNav from "@/components/ui/main-nav";
-import { ModeToggle } from "@/components/ui/Mode.Toggle";
+//import { ModeToggle } from "@/components/ui/Mode.Toggle";
 
 
 export default function MarketingLayout({
@@ -34,7 +34,7 @@ export default function MarketingLayout({
                 >
                 Login
                 </Link>
-                <div><ModeToggle/></div>
+                
                 </nav>
                 
             </div>
