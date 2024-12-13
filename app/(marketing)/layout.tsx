@@ -23,7 +23,7 @@ export default function MarketingLayout({
                 "px-4 "
                 )}
                 >
-                contact
+                contactこんばんわ
                 </Link>
 
                     <Link href={"/login"} 
@@ -32,7 +32,7 @@ export default function MarketingLayout({
                 "px-4 "
                 )}
                 >
-                Login
+                Login こんにちは
                 </Link>
                 
                 </nav>
